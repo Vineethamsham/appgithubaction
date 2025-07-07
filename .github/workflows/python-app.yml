@@ -35,5 +35,5 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-        run: PYTHONPATH=. pytest tests/
+        run: PYTHONPATH=. pytest --pyargs tests
 
